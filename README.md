@@ -1,32 +1,26 @@
-# React + TypeScript + Vite
+# Student Command Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A frontend project for bringing common student tasks and information into one place.
 
-Currently, two official plugins are available:
+The project is being built as a practical student dashboard rather than just another frontend practice page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Current features
 
-## React Compiler
+- Student dashboard interface
+- Frontend interactions
+- Responsive layout
+- Browser-based functionality
+- Push-notification related work
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech
 
-## Expanding the Oxlint configuration
+- HTML
+- CSS
+- JavaScript
+- Web APIs
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Status
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+This project is still being developed. I am using it to improve my frontend skills while gradually turning the idea into a more useful student tool.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+More features will be added as the project develops.
