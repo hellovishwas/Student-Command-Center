@@ -1,16 +1,19 @@
 # Student Command Center
 
-A frontend project for bringing common student tasks and information into one place.
+A frontend project for bringing common student tasks into one place.
 
-The project is being built as a practical student dashboard rather than just another frontend practice page.
+I built this as a practical student dashboard to practice frontend development and browser features while working on something useful.
 
-## Current features
+## Features
 
-- Student dashboard interface
-- Frontend interactions
-- Responsive layout
-- Browser-based functionality
-- Push-notification related work
+- Task management
+- Goals and goal-based tasks
+- Study session tracking
+- Progress summary
+- Responsive interface
+- Browser notifications and scheduled reminders
+- Local browser storage
+- Supabase integration for reminder data
 
 ## Tech
 
@@ -18,9 +21,10 @@ The project is being built as a practical student dashboard rather than just ano
 - CSS
 - JavaScript
 - Web APIs
+- Supabase
 
-## Status
+## Project structure
 
-This project is still being developed. I am using it to improve my frontend skills while gradually turning the idea into a more useful student tool.
+The main frontend is inside the `frontend/` folder.
 
-More features will be added as the project develops.
+This project is still being developed, so I am keeping the implementation simple and adding features as I learn.
